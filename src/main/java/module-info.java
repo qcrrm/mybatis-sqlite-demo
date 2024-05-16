@@ -8,4 +8,6 @@ module com.qcrrm.mybatissqlitedemo {
     exports com.qcrrm.mybatissqlitedemo;
     exports com.qcrrm.mybatissqlitedemo.util;
     opens com.qcrrm.mybatissqlitedemo.util to javafx.fxml;
+
+    opens com.qcrrm.mybatissqlitedemo.pojo to org.mybatis;
 }
